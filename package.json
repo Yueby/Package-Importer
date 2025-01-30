@@ -1,19 +1,22 @@
 {
-  "name": "com.template.package",
-  "displayName": "Template Package",
-  "version": "0.0.1",
-  "unity": "2022.3",
-  "description": "A template package for Unity",
+  "name": "yueby.tools.package-importer",
+  "displayName": "◆ Package Importer",
+  "version": "0.0.9",
+  "description": "A tool for importing packages into Unity.",
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "Yueby",
+    "email": "yueby_sp@qq.com"
   },
   "keywords": [
-    "unity",
-    "package",
-    "template"
+    "yueby",
+    "tool",
+    "package importer",
+    "package-importer",
+    "package"
   ],
-  "unityRelease": "22f1",
+  "unity": "2022.3",
   "vpmDependencies": {
-  }
-} 
+    "yueby.tools.editor-core": ">=0.0.5"
+  },
+  "unityRelease": "22f1"
+}
