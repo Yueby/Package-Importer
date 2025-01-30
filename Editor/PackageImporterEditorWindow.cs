@@ -16,7 +16,7 @@ namespace Yueby.PackageImporter
         private PackageImporterData _packageImporterData;
         private ReorderableListDroppable _reorderableList;
 
-        [MenuItem("Tools/YuebyTools/Utils/Package Importer")]
+        [MenuItem("Tools/YuebyTools/Package Importer")]
         public static void ShowWindow()
         {
             _window = GetWindow<PackageImporterEditorWindow>();
